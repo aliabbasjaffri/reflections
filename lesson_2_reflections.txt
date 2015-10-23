@@ -11,3 +11,16 @@ It helps us get a better and deep understanding of the whole workflow of the git
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 The result is a single unified master branch that has all the stable features.
 We represent it in the diagram because it shows us that there were changes made elsewhere than the master branch and they were incorporated into the master branch later.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic:
+Pros:
+the easy way
+Cons:
+Can sometimes lead to unexpected behavior
+
+Manual:
+Cons:
+nerve consuming
+Pros:
+You know better what the expected output will be later on.
