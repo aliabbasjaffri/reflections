@@ -2,3 +2,12 @@ How is the staging area different from the working directory and the repository?
 Staging area actually helps us to place the individual commits in a temporary area rea be commmited when we commit.
 It actually contains files that we want to commit, but with a single unit entity, the basic most requirement for a commit.
 
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+In times of introducing some unexpected changes and some new implementations, it'll be mega helpful to introduce branches that'd run along parallel to the master branch.
+
+How do the diagrams help you visualize the branch structure?
+It helps us get a better and deep understanding of the whole workflow of the git structure and how the project is split into different components taht are yet independent but share the same root.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result is a single unified master branch that has all the stable features.
+We represent it in the diagram because it shows us that there were changes made elsewhere than the master branch and they were incorporated into the master branch later.
