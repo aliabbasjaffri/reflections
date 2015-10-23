@@ -1,0 +1,4 @@
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Staging area actually helps us to place the individual commits in a temporary area rea be commmited when we commit.
+It actually contains files that we want to commit, but with a single unit entity, the basic most requirement for a commit.
+
